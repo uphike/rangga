@@ -3,12 +3,5 @@
 */.gitkeep
 .git-ftp-ignore
 .git-ftp-include
-./archetypes/*
-./content/*
-./data/*
-./layouts/*
-./resources/*
-./static/*
-./themes/*
 *.toml
 .github/*
