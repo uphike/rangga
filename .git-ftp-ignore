@@ -11,3 +11,4 @@ resources/*
 static/*
 themes/*
 *.toml
+.github/*
