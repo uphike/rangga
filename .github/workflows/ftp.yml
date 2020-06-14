@@ -12,6 +12,8 @@ jobs:
         hugo-version: '0.71.1'
     - name: Build-Hugo
       run: hugo --gc --minify
+    - name: List public files
+      run: ls public
     - name: Deploy-FTP
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
